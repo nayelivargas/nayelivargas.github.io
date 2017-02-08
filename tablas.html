@@ -3,13 +3,21 @@
 <html lang ="es">
     <head>
         <meta charset="UTF=8">
-        <title> Tablas</title>  
+        <title> Tablas</title> 
+        <!--estilo interno--> 
+         <!--<style>
+        tr{background-color: blue; }
+        </style>-->
+        <!--estilo externo-->
+        <link rel="stylesheet" type ="text/css" href="Estilos.css">
         </head>      
 <body>
     <h1>    ejemplo de tablas en html</h1>
     <table>
         <tread>
-            <tr>
+            <!--estilo en linea-->
+
+            <tr style="background-color: green;">
                 <th>Materias</th>
                 <th>creditos</th>
             </tr>
@@ -29,7 +37,9 @@
             </tr>
         </tbody>
         <tfoot> 
-            <tr> 
+            <!--estilo en linea(no recomendado)
+            <tr style="background-color: green;"> -->
+         <tr class="verde"> 
                 <td>total</td>  
                 <td>28</td>
            </tr>
