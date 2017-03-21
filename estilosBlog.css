@@ -1,0 +1,94 @@
+body{
+    background-image: url("fondo.jpg");
+    background-size: 3200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+h2.fecha{
+    color: lightyellow;
+    font-family:  serif;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+h1.subtit{
+    color: coral;
+    font-size: 25px;
+    font-family: serif;
+    padding-top: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+a.blogs{
+    color: lime;
+    font-size: 20px;
+    font-family:  serif;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+h1.tit{
+    font-size: 60px;
+    color: lightcoral;
+    text-align: center;   
+    font-family: serif;
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2.info{
+    color: white;
+    font-size: 20px;
+    font-family: serif;
+    text-align: center;
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+div.divis{ 
+    
+    border: 2px dotted white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 275px;
+    margin-right: 275px;
+} 
+
+p.descrip{
+    text-align: justify;
+    color: white;
+    font-size: 20px;
+    font-family: serif;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+img.imagen{
+    float:left;
+	top: 0.9em;
+    bottom: 0.9em;
+	width: 125px;
+    margin-left: 5px;
+}
+
+div.primero { 
+    border: 5px inset lightgoldenrodyellow;
+    text-align: justify;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+} 

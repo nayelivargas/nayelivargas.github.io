@@ -1,0 +1,71 @@
+<doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title> 
+        Tabla De Multiplicar En JavaScript
+        <link rel="stylesheet" href="estilos.Tablas.css">
+    </title>   
+</head>
+
+<body>
+    <h1> Tablas De Multiplicar. </h1>
+    <script>
+
+            document.write('<link rel="stylesheet" href="estilos.css">')
+            var tamanio = window.prompt("Que Tamaño De Tabla De Multiplicar Deseas? ")
+            var tabla            
+            crearTabla(tamanio)
+            imprimirTabla(tabla)
+            function crearTabla(unNumero)
+            {
+                    window.console.log(unNumero)
+                    tabla = "<table>"
+                    tabla += "<thead>"
+                    var limite = parseInt(unNumero) + 2;
+                    for(var contador1 = 0; contador1 < limite - 1; contador1++)
+                    {
+                        if(contador1 == 0)
+                        {
+                            tabla += "<tr>"
+                            tabla += "<th>" + "X" + "</th>"
+                            for(var contador2 = 1; contador2 < limite - 1; contador2++)
+                                tabla += "<th>" + contador2 + "</th>"                  
+                            tabla += "</tr>" 
+                        }
+                        else
+                        {
+                            tabla += "<tr>"                           
+                            for(var contador2 = 0; contador2 < limite - 1; contador2++)
+                            {
+                                    if(contador2 == 0)
+                                        tabla+="<th>" + contador1 + "</th>"
+                                    else
+                                    {
+                                        var multiplicacion = contador1 * contador2
+                                        tabla+="<th>" + multiplicacion  + "</th>"    
+                                    }  
+                            }            
+                            tabla+="</tr>" 
+                        }                  
+                    }                  
+                    tabla+="</thead>"
+            }
+
+            function imprimirTabla(tavla)
+            {
+                document.write(tavla)
+            }
+            
+    </script>
+
+    <a class="listita" href="index.html"> Regresar al blog </a>
+    <a target="_blank "href="htt://jigsaw.w3.org/css-validator/validator?uri=nayelivargas.github.io">
+     <img src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!">
+    </a>
+    <a target="_blank "href="htt://validator.w3.org/check?uri=nayelivargas.github.io">
+    <img src="http://www.w3.org/Icons/valid-html401" alt="valid HTML">
+    </a> 
+</body>
+</html>
